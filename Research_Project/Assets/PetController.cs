@@ -45,31 +45,33 @@ public class PetController : MonoBehaviour {
 			GetComponent<HeadLookController>().enabled = true;
             //Quaternion targetRotation = Quaternion.LookRotation(playerPos - transform.position);
 
-         // 犬をゆっくり振り向かせる
+            // 犬をゆっくり振り向かせる
             targetRotation = Quaternion.LookRotation(playerPos - transform.position);
             dogContact = true;
-			walkStart = true;
+            
 
-		}
+        }
 
         rotationSpeed += 0.0015f;
 
 
         if (dogContact)
         {
+            animator.SetBool("walk", true);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed);
-            
+            walkStart = true;
             if (rotationSpeed >= 1) rotationSpeed = 0;
         }
 
         //プレイヤーとの間に一定距離空ける
         if(distance >= limitDistance && walkStart == true){
-        	animator.SetBool ("walk", true);
-        	transform.position = transform.position + (direction * speed * Time.deltaTime);
+            animator.SetBool("run", true);
+            transform.position = transform.position + (direction * speed * Time.deltaTime);
         	GetComponent<MovePet>().enabled = false;
 
         } else if (distance < limitDistance) {
-        	animator.SetBool ("walk", false);
+            animator.SetBool("run", false);
+            animator.SetBool("walk", false);
             walkStart = false;
         }
 

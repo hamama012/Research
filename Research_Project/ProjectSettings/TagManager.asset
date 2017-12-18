@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tail
   - Hand
+  - Pet
   layers:
   - Default
   - TransparentFX

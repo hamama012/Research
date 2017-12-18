@@ -1,0 +1,1009 @@
+fileFormatVersion: 2
+guid: 53b280322f2689d40afbf3a6fa54102d
+timeCreated: 1512311409
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ALL
+    100002: Back_Left_Leg
+    100004: Back_Left_Leg1
+    100006: Back_Left_Leg10
+    100008: Back_Left_Leg11
+    100010: Back_Left_Leg12
+    100012: Back_Left_Leg13
+    100014: Back_Left_Leg2
+    100016: Back_Left_Leg3
+    100018: Back_Left_Leg4
+    100020: Back_Left_Leg5
+    100022: Back_Left_Leg6
+    100024: Back_Left_Leg7
+    100026: Back_Left_Leg8
+    100028: Back_Left_Leg9
+    100030: Body_Center
+    100032: Body_Front
+    100034: Chin
+    100036: Chin1
+    100038: Chin2
+    100040: CTRL
+    100042: CTRL_Body_Back
+    100044: CTRL_Body_Front
+    100046: CTRL_Chin
+    100048: CTRL_Ear_Left
+    100050: CTRL_Ear_Right
+    100052: CTRL_Global
+    100054: CTRL_Hip
+    100056: CTRL_Leg_Back_Left1
+    100058: CTRL_Leg_Back_Left2
+    100060: CTRL_Leg_Back_Right1
+    100062: CTRL_Leg_Back_Right2
+    100064: CTRL_Leg_Front_Left1
+    100066: CTRL_Leg_Front_Left2
+    100068: CTRL_Leg_Front_Right1
+    100070: CTRL_Leg_Front_Right2
+    100072: CTRL_Neck
+    100074: CTRL_Root_Back_Left
+    100076: CTRL_Root_Back_Right
+    100078: CTRL_Root_Front_Left
+    100080: CTRL_Root_Front_Right
+    100082: CTRL_Tail
+    100084: cu_puppy_head
+    100086: cu_puppy_hips
+    100088: cu_puppy_jaw
+    100090: cu_puppy_L_arm
+    100092: cu_puppy_L_ear
+    100094: cu_puppy_L_eye_down
+    100096: cu_puppy_L_eye_up
+    100098: cu_puppy_L_finger
+    100100: cu_puppy_L_finger_end
+    100102: cu_puppy_L_foot
+    100104: cu_puppy_L_forearm
+    100106: cu_puppy_L_hand
+    100108: cu_puppy_L_knee
+    100110: cu_puppy_L_leg
+    100112: cu_puppy_L_shin
+    100114: cu_puppy_L_shoulder
+    100116: cu_puppy_L_toe
+    100118: cu_puppy_L_toe_end
+    100120: cu_puppy_neck0
+    100122: cu_puppy_neck1
+    100124: cu_puppy_R_arm
+    100126: cu_puppy_R_ear
+    100128: cu_puppy_R_eye_down
+    100130: cu_puppy_R_eye_up
+    100132: cu_puppy_R_finger
+    100134: cu_puppy_R_finger_end
+    100136: cu_puppy_R_foot
+    100138: cu_puppy_R_forearm
+    100140: cu_puppy_R_hand
+    100142: cu_puppy_R_knee
+    100144: cu_puppy_R_leg
+    100146: cu_puppy_R_shin
+    100148: cu_puppy_R_shoulder
+    100150: cu_puppy_R_toe
+    100152: cu_puppy_R_toe_end
+    100154: cu_puppy_spine
+    100156: cu_puppy_spine1
+    100158: cu_puppy_spine2
+    100160: cu_puppy_tail0
+    100162: cu_puppy_tail1
+    100164: cu_puppy_tail2
+    100166: cu_puppy_tail3
+    100168: cu_puppy_tongue
+    100170: cu_puppy_tongue1
+    100172: cu_puppy_transform7
+    100174: cu_puppy_transform8
+    100176: Front_Left_Leg
+    100178: Front_Left_Leg1
+    100180: Front_Left_Leg2
+    100182: Front_Left_Leg3
+    100184: Front_Left_Leg4
+    100186: Front_Left_Leg5
+    100188: Front_Left_Leg5 1
+    100190: Front_Right_Leg
+    100192: Front_Right_Leg1
+    100194: Front_Right_Leg2
+    100196: Front_Right_Leg3
+    100198: Front_Right_Leg4
+    100200: Head
+    100202: IK
+    100204: IK_Leg_Back_Left1
+    100206: IK_Leg_Back_Left2
+    100208: IK_Leg_Back_Right1
+    100210: IK_Leg_Back_Right2
+    100212: IK_Leg_Front_Left1
+    100214: IK_Leg_Front_Left2
+    100216: IK_Leg_Front_Right1
+    100218: IK_Leg_Front_Right2
+    100220: IK_Tail
+    100222: Joint
+    100224: joint1
+    100226: joint2
+    100228: Left_Ear
+    100230: Left_Ear1
+    100232: Left_Ear2
+    100234: Left_Ear3
+    100236: Left_Ear4
+    100238: Left_Ear5
+    100240: Neck1
+    100242: Neck2
+    100244: Object
+    100246: Object_Pet
+    100248: Object_R_Eye
+    100250: ObjectL_Eye
+    100252: //RootNode
+    100254: Tail
+    100256: Tail1
+    100258: Tail2
+    100260: Tail3
+    100262: Tail4
+    100264: transform1
+    100266: transform3
+    100268: pasted__pSphere1
+    100270: pSphere1
+    100272: collection7
+    100274: description7
+    100276: groom_description7
+    100278: Object_description7
+    100280: Body
+    100282: joint3
+    100284: joint4
+    100286: joint5
+    100288: joint6
+    100290: joint7
+    100292: pSphere2
+    100294: CTRL_Chin1
+    100296: CTRL_Chin2
+    400000: ALL
+    400002: Back_Left_Leg
+    400004: Back_Left_Leg1
+    400006: Back_Left_Leg10
+    400008: Back_Left_Leg11
+    400010: Back_Left_Leg12
+    400012: Back_Left_Leg13
+    400014: Back_Left_Leg2
+    400016: Back_Left_Leg3
+    400018: Back_Left_Leg4
+    400020: Back_Left_Leg5
+    400022: Back_Left_Leg6
+    400024: Back_Left_Leg7
+    400026: Back_Left_Leg8
+    400028: Back_Left_Leg9
+    400030: Body_Center
+    400032: Body_Front
+    400034: Chin
+    400036: Chin1
+    400038: Chin2
+    400040: CTRL
+    400042: CTRL_Body_Back
+    400044: CTRL_Body_Front
+    400046: CTRL_Chin
+    400048: CTRL_Ear_Left
+    400050: CTRL_Ear_Right
+    400052: CTRL_Global
+    400054: CTRL_Hip
+    400056: CTRL_Leg_Back_Left1
+    400058: CTRL_Leg_Back_Left2
+    400060: CTRL_Leg_Back_Right1
+    400062: CTRL_Leg_Back_Right2
+    400064: CTRL_Leg_Front_Left1
+    400066: CTRL_Leg_Front_Left2
+    400068: CTRL_Leg_Front_Right1
+    400070: CTRL_Leg_Front_Right2
+    400072: CTRL_Neck
+    400074: CTRL_Root_Back_Left
+    400076: CTRL_Root_Back_Right
+    400078: CTRL_Root_Front_Left
+    400080: CTRL_Root_Front_Right
+    400082: CTRL_Tail
+    400084: cu_puppy_head
+    400086: cu_puppy_hips
+    400088: cu_puppy_jaw
+    400090: cu_puppy_L_arm
+    400092: cu_puppy_L_ear
+    400094: cu_puppy_L_eye_down
+    400096: cu_puppy_L_eye_up
+    400098: cu_puppy_L_finger
+    400100: cu_puppy_L_finger_end
+    400102: cu_puppy_L_foot
+    400104: cu_puppy_L_forearm
+    400106: cu_puppy_L_hand
+    400108: cu_puppy_L_knee
+    400110: cu_puppy_L_leg
+    400112: cu_puppy_L_shin
+    400114: cu_puppy_L_shoulder
+    400116: cu_puppy_L_toe
+    400118: cu_puppy_L_toe_end
+    400120: cu_puppy_neck0
+    400122: cu_puppy_neck1
+    400124: cu_puppy_R_arm
+    400126: cu_puppy_R_ear
+    400128: cu_puppy_R_eye_down
+    400130: cu_puppy_R_eye_up
+    400132: cu_puppy_R_finger
+    400134: cu_puppy_R_finger_end
+    400136: cu_puppy_R_foot
+    400138: cu_puppy_R_forearm
+    400140: cu_puppy_R_hand
+    400142: cu_puppy_R_knee
+    400144: cu_puppy_R_leg
+    400146: cu_puppy_R_shin
+    400148: cu_puppy_R_shoulder
+    400150: cu_puppy_R_toe
+    400152: cu_puppy_R_toe_end
+    400154: cu_puppy_spine
+    400156: cu_puppy_spine1
+    400158: cu_puppy_spine2
+    400160: cu_puppy_tail0
+    400162: cu_puppy_tail1
+    400164: cu_puppy_tail2
+    400166: cu_puppy_tail3
+    400168: cu_puppy_tongue
+    400170: cu_puppy_tongue1
+    400172: cu_puppy_transform7
+    400174: cu_puppy_transform8
+    400176: Front_Left_Leg
+    400178: Front_Left_Leg1
+    400180: Front_Left_Leg2
+    400182: Front_Left_Leg3
+    400184: Front_Left_Leg4
+    400186: Front_Left_Leg5
+    400188: Front_Left_Leg5 1
+    400190: Front_Right_Leg
+    400192: Front_Right_Leg1
+    400194: Front_Right_Leg2
+    400196: Front_Right_Leg3
+    400198: Front_Right_Leg4
+    400200: Head
+    400202: IK
+    400204: IK_Leg_Back_Left1
+    400206: IK_Leg_Back_Left2
+    400208: IK_Leg_Back_Right1
+    400210: IK_Leg_Back_Right2
+    400212: IK_Leg_Front_Left1
+    400214: IK_Leg_Front_Left2
+    400216: IK_Leg_Front_Right1
+    400218: IK_Leg_Front_Right2
+    400220: IK_Tail
+    400222: Joint
+    400224: joint1
+    400226: joint2
+    400228: Left_Ear
+    400230: Left_Ear1
+    400232: Left_Ear2
+    400234: Left_Ear3
+    400236: Left_Ear4
+    400238: Left_Ear5
+    400240: Neck1
+    400242: Neck2
+    400244: Object
+    400246: Object_Pet
+    400248: Object_R_Eye
+    400250: ObjectL_Eye
+    400252: //RootNode
+    400254: Tail
+    400256: Tail1
+    400258: Tail2
+    400260: Tail3
+    400262: Tail4
+    400264: transform1
+    400266: transform3
+    400268: pasted__pSphere1
+    400270: pSphere1
+    400272: collection7
+    400274: description7
+    400276: groom_description7
+    400278: Object_description7
+    400280: Body
+    400282: joint3
+    400284: joint4
+    400286: joint5
+    400288: joint6
+    400290: joint7
+    400292: pSphere2
+    400294: CTRL_Chin1
+    400296: CTRL_Chin2
+    2300000: pasted__pSphere1
+    2300002: pSphere1
+    2300004: Object
+    2300006: pSphere2
+    3300000: pasted__pSphere1
+    3300002: pSphere1
+    3300004: Object
+    3300006: pSphere2
+    4300000: Object
+    4300002: pSphere1
+    4300004: pasted__pSphere1
+    4300006: Body
+    4300008: pSphere2
+    7400000: Walk
+    7400002: Idle
+    7400004: Run
+    9500000: //RootNode
+    13700000: Object
+    13700002: Body
+    13700004: pSphere1
+    13700006: pSphere2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1/CTRL_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1/CTRL_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1/CTRL_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1/CTRL_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Tail
+        weight: 1
+      - path: CTRL_Global/IK
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Tail
+        weight: 1
+      - path: CTRL_Global/Joint
+        weight: 1
+      - path: CTRL_Global/Joint/ALL
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5/Back_Left_Leg6
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12/Back_Left_Leg13
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4/Front_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4/Front_Left_Leg5
+          1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1/Chin2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3/joint4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1/Left_Ear2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4/Left_Ear5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1/CTRL_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1/CTRL_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1/CTRL_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1/CTRL_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Tail
+        weight: 1
+      - path: CTRL_Global/IK
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Tail
+        weight: 1
+      - path: CTRL_Global/Joint
+        weight: 1
+      - path: CTRL_Global/Joint/ALL
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5/Back_Left_Leg6
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12/Back_Left_Leg13
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4/Front_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4/Front_Left_Leg5
+          1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1/Chin2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3/joint4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1/Left_Ear2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4/Left_Ear5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Back/CTRL_Root_Back_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Body_Front/CTRL_Root_Front_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Left1/CTRL_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Back_Right1/CTRL_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Left1/CTRL_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Leg_Front_Right1/CTRL_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin1
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Chin2
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Left
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Neck/CTRL_Ear_Right
+        weight: 1
+      - path: CTRL_Global/CTRL/CTRL_Tail
+        weight: 1
+      - path: CTRL_Global/IK
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Back_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Left2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right1
+        weight: 1
+      - path: CTRL_Global/IK/IK_Leg_Front_Right2
+        weight: 1
+      - path: CTRL_Global/IK/IK_Tail
+        weight: 1
+      - path: CTRL_Global/Joint
+        weight: 1
+      - path: CTRL_Global/Joint/ALL
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg/Back_Left_Leg1/Back_Left_Leg2/Back_Left_Leg3/Back_Left_Leg4/Back_Left_Leg5/Back_Left_Leg6
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Back_Left_Leg7/Back_Left_Leg8/Back_Left_Leg9/Back_Left_Leg10/Back_Left_Leg11/Back_Left_Leg12/Back_Left_Leg13
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Left_Leg/Front_Left_Leg1/Front_Left_Leg2/Front_Left_Leg3/Front_Left_Leg4/Front_Left_Leg5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Front_Right_Leg/Front_Right_Leg1/Front_Right_Leg2/Front_Right_Leg3/Front_Right_Leg4/Front_Left_Leg5
+          1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/Chin1/Chin2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Chin/joint3/joint4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/joint2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear/Left_Ear1/Left_Ear2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Body_Center/Body_Front/Neck1/Neck2/Head/Left_Ear3/Left_Ear4/Left_Ear5
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CTRL_Global/Joint/ALL/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

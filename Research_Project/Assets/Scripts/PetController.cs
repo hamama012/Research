@@ -15,9 +15,15 @@ public class PetController : MonoBehaviour {
 
 //	private bool collisionCheck = false;
 	private bool walkStart = false;
-	private Animator animator;
+    public int dirStart = 0; //視線先チェック変数（カメラ方向を1、ハンド方向を2、自由方向を0）
+
+    private int colCount = 0; //衝突判定時間カウント
+    private int colCount2 = 0; //衝突離脱時間カウント
+
+    private Animator animator;
 
     public GameObject refObj;
+    public GameObject colHand;
 
     // Use this for initialization
     void Start () {
@@ -50,7 +56,6 @@ public class PetController : MonoBehaviour {
         //トリガーが深く引かれた際にプレイヤー側に回転、移動
         if (playerControll.call == true && movePet.enabled == true)
         {
-            Debug.Log("1");
             GetComponent<HeadLookController>().enabled = true;
 
             //回転処理
@@ -61,7 +66,7 @@ public class PetController : MonoBehaviour {
 
         //触れ合い可能状態から待機状態へ戻す
         else if (playerControll.call == true && movePet.enabled == false) {
-            Debug.Log("aaaa");
+ 
             movePet.enabled = true;
             playerControll.call = false;
         }
@@ -87,7 +92,6 @@ public class PetController : MonoBehaviour {
 
         //停止処理
         else if (distance < limitDistance && walkStart == true) {
-            Debug.Log("ssss");
             animator.SetBool("run", false);
             animator.SetBool("walk", false);
             playerControll.call = false;
@@ -96,34 +100,49 @@ public class PetController : MonoBehaviour {
             movePet.enabled = false;
         }
 
+        //衝突判定なし時間カウント
+        if (colCount > 0)
+        {
+            colCount++;
+        }
+        if (colCount == 20)
+        {
+            colCount = 0;
+        }
 
+        //衝突離脱時間カウント
+        if (colCount2 > 0) colCount2++;
+        if (colCount2 > 30)
+        {
+            animator.SetBool("tail", false);
+            colCount2 = 0;
+            dirStart = 1;
+        }
 
         //犬の座標固定
         var elr = transform.rotation.eulerAngles;
         transform.rotation = Quaternion.Euler(0, elr.y, elr.z); //Updateごとに強制的にx=0
     }
 
-	//衝突判定
+	//衝突判定(尻尾モーション)
 	void OnCollisionEnter(Collision collision){
-        
-        //衝突時尻尾を振る処理
-        if(collision.gameObject.tag == "Hand")
+
+        if (collision.gameObject == colHand && colCount == 0)
         {
-            //Debug.Log("尻尾が動くよ");
+            dirStart = 2;
+            animator.SetBool("tail", true);
+            colCount++;
         }
 
-        //壁を避ける行動
+        colCount2 = 0;
     }
 
     void OnCollisionExit(Collision collision)
     {
-
-        //衝突時尻尾を振る処理
-        if (collision.gameObject.tag == "Hand")
-        {
-            //Debug.Log("尻尾が止まるよ");
-        }
+        if (colCount > 0)
+            colCount2++;
     }
+
 
 }
 

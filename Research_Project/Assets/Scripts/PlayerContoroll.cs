@@ -16,7 +16,9 @@ public class PlayerContoroll : MonoBehaviour {
     //衝突判定
     public void RelayOnCollisionEnter(Collision collision)
     {
-        device.TriggerHapticPulse(200);
+        //振動
+        if(collision.gameObject.tag == "Pet")
+            device.TriggerHapticPulse(200);
     }
 
     // Update is called once per frame

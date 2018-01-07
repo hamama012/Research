@@ -13,12 +13,12 @@ public class PetController : MonoBehaviour {
 	public float speed = 3.0f; //移動速度
 	public float limitDistance = 2.0f; //プレイヤーに一定間空ける距離
 
-//	private bool collisionCheck = false;
+	private bool collisionCheck = false;
 	private bool walkStart = false;
     public int dirStart = 0; //視線先チェック変数（カメラ方向を1、ハンド方向を2、自由方向を0）
 
-    private int colCount = 0; //衝突判定時間カウント
-    private int colCount2 = 0; //衝突離脱時間カウント
+    public int colCount = 0; //衝突判定時間カウント
+    public int colCount2 = 0; //衝突離脱時間カウント
 
     private Animator animator;
 
@@ -53,22 +53,31 @@ public class PetController : MonoBehaviour {
 		direction = direction.normalized; //単位化（距離要素を取り除く）
 		direction.y = 0f;
 
-        //トリガーが深く引かれた際にプレイヤー側に回転、移動
-        if (playerControll.call == true && movePet.enabled == true)
+        //顔だけ向けて一時停止
+        if(playerControll.release == false)
         {
+            animator.SetBool("walk", false);
+            movePet.enabled = false;
             GetComponent<HeadLookController>().enabled = true;
+        }
+
+        //トリガーが深く引かれた際にプレイヤー側に回転、移動
+        if (playerControll.call == true && playerControll.release == false)
+        {
+            animator.SetBool("walk", true);
 
             //回転処理
             targetRotation = Quaternion.LookRotation(playerPos - transform.position);
             dogContact = true;
-
         }
 
         //触れ合い可能状態から待機状態へ戻す
-        else if (playerControll.call == true && movePet.enabled == false) {
+        else if (playerControll.release == true && movePet.enabled == false) {
  
             movePet.enabled = true;
             playerControll.call = false;
+
+            GetComponent<HeadLookController>().enabled = false;
         }
 
             rotationSpeed += 0.0015f;
@@ -102,18 +111,19 @@ public class PetController : MonoBehaviour {
 
         //衝突判定なし時間カウント
         if (colCount > 0)
-        {
             colCount++;
-        }
-        if (colCount == 20)
+        if (colCount == 40)
         {
             colCount = 0;
         }
 
         //衝突離脱時間カウント
-        if (colCount2 > 0) colCount2++;
-        if (colCount2 > 30)
+        if (colCount2 > 0)
+            colCount2++; //衝突離脱以降カウント
+        if (colCount2 > 80)
         {
+            //離脱後衝突せず30フレーム経過した時
+            //尻尾停止、衝突離脱カウントリセット、視線方向をカメラに
             animator.SetBool("tail", false);
             colCount2 = 0;
             dirStart = 1;
@@ -125,13 +135,16 @@ public class PetController : MonoBehaviour {
     }
 
 	//衝突判定(尻尾モーション)
-	void OnCollisionEnter(Collision collision){
-
+	void OnCollisionEnter(Collision collision)
+    {
         if (collision.gameObject == colHand && colCount == 0)
         {
             dirStart = 2;
             animator.SetBool("tail", true);
             colCount++;
+
+           //dirStartがカウントが終わったときに接触中にもまた送られて、一瞬とはいえfaceComplisionに移ったときに
+           //faceComplisionが小さすぎてめちゃくちゃ震えるのが分かる。接触中に送らせないようにするにはどうしよう
         }
 
         colCount2 = 0;
@@ -141,6 +154,9 @@ public class PetController : MonoBehaviour {
     {
         if (colCount > 0)
             colCount2++;
+
+        collisionCheck = true;
+
     }
 
 

@@ -365,7 +365,7 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
   webGLMemorySize: 256
-  webGLExceptionSupport: 1
+  webGLExceptionSupport: 0
   webGLDataCaching: 0
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
@@ -376,9 +376,13 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
-  platformArchitecture: {}
+  platformArchitecture:
+    iOS: 2
   scriptingBackend:
-    Standalone: 0
+    Metro: 2
+    WP8: 2
+    WebGL: 1
+    iOS: 0
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   m_RenderingPath: 1
@@ -415,7 +419,7 @@ PlayerSettings:
   tizenGPSPermissions: 0
   tizenMicrophonePermissions: 0
   tizenDeploymentTarget: 
-  tizenDeploymentTargetType: -269686532
+  tizenDeploymentTargetType: 57098048
   tizenMinOSVersion: 0
   n3dsUseExtSaveData: 0
   n3dsCompressStaticMem: 1

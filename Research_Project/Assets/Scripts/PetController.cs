@@ -143,8 +143,6 @@ public class PetController : MonoBehaviour {
             animator.SetBool("tail", true);
             colCount++;
 
-           //dirStartがカウントが終わったときに接触中にもまた送られて、一瞬とはいえfaceComplisionに移ったときに
-           //faceComplisionが小さすぎてめちゃくちゃ震えるのが分かる。接触中に送らせないようにするにはどうしよう
         }
 
         colCount2 = 0;

@@ -7,7 +7,6 @@ public class DirectionManager : MonoBehaviour {
     public GameObject hand; //仮想ハンド
     public GameObject pet; //ペット
 
-    public GameObject refObj1; //コントローラ
     public GameObject refObj2; //ペット
     public GameObject nextObj; //次の移動先である視線先ターゲット（衝突判定に使用）
 
@@ -27,7 +26,6 @@ public class DirectionManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        PlayerContoroll trackedObject = refObj1.GetComponent<PlayerContoroll>(); //コントローラのスクリプト取得
         PetController colPet = pet.GetComponent<PetController>(); //コントローラのスクリプト取得
         headLook = refObj2.GetComponent<HeadLookController>();
 
